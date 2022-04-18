@@ -18,7 +18,7 @@ class BuckClass:
     - Métodos para graficar la salida producida por la ANN (y la función objetivo)
     """
 
-    steps = 10**4
+    steps = 6000
     steady = 2000
 
     def __init__(self, dcdc_config):
