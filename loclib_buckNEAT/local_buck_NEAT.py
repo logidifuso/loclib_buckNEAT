@@ -239,7 +239,6 @@ def start_experiment(ruta_config_exp, ruta_experiment):
     :return: lo retornado por la función ```run_experiment```: population y config. No se utilizan
     en la última versión.
     """
-    print("comenzamos en loclib_buck_NEAT")
     settings = experiment_configuration_parsing(ruta_config_exp)
 
     dcdc_config = settings[0]
